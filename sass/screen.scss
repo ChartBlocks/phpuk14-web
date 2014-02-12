@@ -1,0 +1,70 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/utilities";
+@import "compass/css3";
+@import "variables";
+@import "header";
+@import "footer";
+@import "grid";
+
+*{
+    @include box-sizing(border-box);
+}
+
+a{
+	text-decoration:none;
+}
+
+body{
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:10px;
+}
+
+h1{
+    color:$Orange;
+    font-family:"SteelfishRgRegular",Helvetica,Arial,sans-serif;
+    font-size:3.8em;
+    line-height:1.4em;
+}
+
+h2{
+    color:$Blue;
+    font-family:"SteelfishRgRegular",Helvetica,Arial,sans-serif;
+    font-size:2.8em;
+    line-height:1.4em;
+}
+
+p{
+	color:$MainText;
+    font:300 1.5em/1.625 "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.row{
+    overflow:visible;
+    padding:0 20px;
+    position:relative;
+    margin:0 auto;
+    max-width:1140px;
+    min-width:0;
+    overflow:hidden;
+    width:100%;
+
+    &:before,
+    :after{
+    	content:" ";
+    	display:table;
+    	clear:both;
+    }
+}
+
+.main{
+	padding:60px 0 0;
+
+	.row{
+    	padding: 0 20px 30px;
+	}
+}

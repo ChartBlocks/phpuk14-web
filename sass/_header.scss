@@ -1,0 +1,31 @@
+.header{
+	background:$HeaderColour;
+	height:$HeaderHeight;
+	width:100%;
+
+	.menu{
+		list-style: none outside none;
+	    margin: 0 -2px 0 0;
+	    padding: 0 10% 0 0;
+
+	    .logo{
+	    	margin:0 20px 0 0;
+	    }
+
+		li{
+			display:inline-block;
+			padding:0;
+    		margin:0 10px 0 0;
+
+			a{
+				color:lighten($HeaderColour, 15%);
+				font-size:1.5em;
+				line-height:$HeaderHeight;
+
+				&:hover{
+					color:$Blue;
+				}
+			}
+		}
+	}
+}
