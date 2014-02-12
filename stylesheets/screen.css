@@ -253,3 +253,32 @@ p {
 .main .row {
   padding: 0 20px 30px;
 }
+
+/* line 72, ../sass/screen.scss */
+.php {
+  clear: both;
+  font-size: 1px;
+  height: 1px;
+  line-height: 1px;
+  margin: 20px auto 40px;
+  padding: 0 !important;
+  overflow: visible;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(15%, rgba(0, 0, 0, 0.1)), color-stop(85%, rgba(0, 0, 0, 0.1)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(left center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 15%, rgba(0, 0, 0, 0.1) 85%, rgba(0, 0, 0, 0) 100%);
+  background-image: -moz-linear-gradient(left center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 15%, rgba(0, 0, 0, 0.1) 85%, rgba(0, 0, 0, 0) 100%);
+  background-image: -o-linear-gradient(left center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 15%, rgba(0, 0, 0, 0.1) 85%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(left center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 15%, rgba(0, 0, 0, 0.1) 85%, rgba(0, 0, 0, 0) 100%);
+}
+
+/* line 87, ../sass/screen.scss */
+.php:after {
+  background-image: url("../img/icon-elephant.png");
+  content: " ";
+  display: block;
+  height: 28px;
+  left: 50%;
+  margin: 0 0 0 -20px;
+  position: absolute;
+  top: -10px;
+  width: 40px;
+}
