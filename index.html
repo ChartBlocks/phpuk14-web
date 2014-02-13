@@ -8,16 +8,26 @@
           <!--[if IE]>
               <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
           <![endif]-->
-
         <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" /> 
         <link href="stylesheets/error.css" type="text/css" rel="stylesheet" />
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){ 
+                $(".toggle-nav").click(function() { 
+                    $(".menu").toggleClass("nav-open");
+                });
+            });
+        </script>
     </head>
 
     <body>
         <div class="header">
             <div class="row">
+                <div class="logo">
+                    <a href="http://app.chartblocks.com"></a>
+                </div>
+                <a class="toggle-nav">Nav Toggle</a>
                 <ul class="menu">
-                    <img class="logo" src="img/logo.png" />
                     <li><a href="http://www.chartblocks.com">Website</a></li>
                     <li><a href="http://app.chartblocks.com">App</a></li>
                     <li><a href="http://www.chartblocks.com/support">Contact Us</a></li>
@@ -32,7 +42,7 @@
             <div class="row php"></div>
             <div class="row chart">
                 <h2>This is a chart</h2>
-                    <iframe width="800" height="400" src="//embed.chartblocks.com/1.0/?c=52f5359bc9a61d2f5603afa0" frameBorder="0"></iframe>
+                    <iframe width="1000" height="400" src="//embed.chartblocks.com/1.0/?c=52f5359bc9a61d2f5603afa0" frameBorder="0"></iframe>
                     <p>Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
             </div>
             <div class="row chart">
@@ -53,7 +63,7 @@
             </div>
             <div class="row chart">
                 <h2>This is also a chart</h2>
-                    <iframe width="800" height="400" src="//embed.chartblocks.com/1.0/?c=52f5366bc9a61d245603afa0" frameBorder="0"></iframe>
+                    <iframe width="1000" height="400" src="//embed.chartblocks.com/1.0/?c=52f5366bc9a61d245603afa0" frameBorder="0"></iframe>
                     <p>Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
             </div>
         </div>

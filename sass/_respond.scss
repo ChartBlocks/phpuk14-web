@@ -1,0 +1,26 @@
+@mixin respond($point) {
+  @if $point == desktop {
+    @media (min-width: 1024px) { @content; }
+  }  
+  @else if $point == tablet {
+    @media (max-width: 980px) { @content; }
+  }
+  @else if $point == mobile {
+    @media (max-width: 599px) { @content; }
+  }
+}
+
+/* General Mobile Touch ----------- */
+.mobile-touch-overflow {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    -moz-overflow-scrolling: touch;
+    -o-overflow-scrolling: touch;
+    -ms-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+}
+.mobile-touch-overflow,
+.mobile-touch-overflow * {
+    /* some level of transform keeps elements from blinking out of visibility on iOS */
+    -webkit-transform: rotateY(0);
+}

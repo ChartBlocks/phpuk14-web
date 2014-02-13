@@ -6,6 +6,7 @@
 @import "compass/reset";
 @import "compass/utilities";
 @import "compass/css3";
+@import "respond";
 @import "variables";
 @import "header";
 @import "footer";
@@ -44,13 +45,12 @@ p{
 }
 
 .row{
-    overflow:visible;
+    overflow:hidden;
     padding:0 20px;
     position:relative;
     margin:0 auto;
-    max-width:1140px;
+    max-width:1000px;
     min-width:0;
-    overflow:hidden;
     width:100%;
 
     &:before,
@@ -84,6 +84,7 @@ p{
     	rgba(0, 0, 0, 0) 100%)
     );
 }
+
 .php:after {
     background-image:url("../img/icon-elephant.png");
     content:" ";
@@ -94,4 +95,8 @@ p{
     position:absolute;
     top:-10px;
     width:40px;
+}
+
+.chart{
+    margin:auto;
 }
