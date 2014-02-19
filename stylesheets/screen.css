@@ -399,4 +399,5 @@ iframe {
 .stats > ul > li {
   display: inline-block;
   margin-right: 30px;
+  text-align: center;
 }
