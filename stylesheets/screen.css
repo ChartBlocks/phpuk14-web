@@ -332,9 +332,10 @@ p {
 iframe {
   display: block;
   margin: auto;
+  max-width: 100%;
 }
 
-/* line 52, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 .row {
   overflow: hidden;
   padding: 0 20px;
@@ -344,7 +345,7 @@ iframe {
   min-width: 0;
   width: 100%;
 }
-/* line 62, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 .row:before,
 .row :after {
   content: " ";
@@ -352,16 +353,16 @@ iframe {
   clear: both;
 }
 
-/* line 69, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 .main {
   padding: 60px 0 0;
 }
-/* line 72, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .main .row {
   padding: 0 20px 30px;
 }
 
-/* line 77, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 .php {
   clear: both;
   font-size: 1px;
@@ -377,7 +378,7 @@ iframe {
   background-image: linear-gradient(left center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 15%, rgba(0, 0, 0, 0.1) 85%, rgba(0, 0, 0, 0) 100%);
 }
 
-/* line 93, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 .php:after {
   background-image: url("../img/icon-elephant.png");
   content: " ";
@@ -390,7 +391,7 @@ iframe {
   width: 40px;
 }
 
-/* line 105, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 .chart {
   margin: auto;
 }
