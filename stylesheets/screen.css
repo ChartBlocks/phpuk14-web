@@ -281,7 +281,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   clear: both;
 }
 
-@media (max-width: 980px) {
+@media (max-width: 599px) {
   /* line 56, ../sass/_grid.scss */
   .c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12 {
     width: 100%;
@@ -318,7 +318,7 @@ h1 {
 h2 {
   color: #4a91a3;
   font-family: "SteelfishRgRegular",Helvetica,Arial,sans-serif;
-  font-size: 2.8em;
+  font-size: 2em;
   line-height: 1.4em;
 }
 
@@ -331,21 +331,20 @@ p {
 /* line 47, ../sass/screen.scss */
 iframe {
   display: block;
-  margin: auto;
   max-width: 100%;
 }
 
-/* line 53, ../sass/screen.scss */
+/* line 52, ../sass/screen.scss */
 .row {
   overflow: hidden;
   padding: 0 20px;
   position: relative;
   margin: 0 auto;
-  max-width: 1640px;
+  max-width: 970px;
   min-width: 0;
   width: 100%;
 }
-/* line 63, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 .row:before,
 .row :after {
   content: " ";
@@ -353,16 +352,16 @@ iframe {
   clear: both;
 }
 
-/* line 70, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 .main {
   padding: 60px 0 0;
 }
-/* line 73, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 .main .row {
   padding: 0 20px 30px;
 }
 
-/* line 78, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 .php {
   clear: both;
   font-size: 1px;
@@ -378,7 +377,7 @@ iframe {
   background-image: linear-gradient(left center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 15%, rgba(0, 0, 0, 0.1) 85%, rgba(0, 0, 0, 0) 100%);
 }
 
-/* line 94, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 .php:after {
   background-image: url("../img/icon-elephant.png");
   content: " ";
@@ -391,7 +390,7 @@ iframe {
   width: 40px;
 }
 
-/* line 106, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 .chart {
   margin: auto;
 }
